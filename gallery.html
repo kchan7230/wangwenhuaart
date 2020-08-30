@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="titleName">Wang Wenhua</div>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="shortcut icon" href="images/main/Wenhua.png">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="index.html" target="_blank" class="logo" ><img src="images/main/Wenhua.png" alt="logo icon" id="logoimage">Wang Wenhua</a>
+            <div class="desktopNav">
+                <div id="menuitem1">
+                    <a href="index.html#About" target="_blank">About</a>
+                    <div id="underline1"></div>
+                </div>
+                <div id="menuitem2">
+                    <a href="index.html#Contact" target="_blank">Contact</a>
+                    <div id="underline2"></div>
+                </div>
+                <div id="menuitem3">
+                    <a href="#" target="_blank">中文</a>
+                    <div id="underline3"></div>
+                </div>
+            </div>
+            <div class="mobileNav" onclick="displayMobileNav()">
+                <img src="images/main/whitemenuicon.png">
+            </div>
+        </nav>
+        <div id="mobileNavSections">
+            <a href="index.html#About" target="_blank">About</a>
+            <a href="index.html#Contact" target="_blank">Contact</a>
+            <a href="#">中文</a>
+        </div>
+        
+        <!-- Side navigation -->
+        <div class="sidenav">
+            <a href="#LandscapeandFlowers" class="sidenavHeadings">Oil Painting</a>
+                <a href="#LandscapeandFlowers" class="sidenavSubheadings">Landscape and Flowers</a>
+                <a href="#Portraits" class="sidenavSubheadings">Portraits</a>
+            <a href="#Sketch" class="sidenavHeadings">Sketch</a>
+            </div>
+
+        <div id="moreInfo">
+            <div class="iconContainer">
+                <img onclick = "closeMore()" id="closeicon" src="images/main/closeicon.png"/>                
+            </div>
+            <div class="headingContainer"></div>
+            <div class="infoContent">
+                <!-- <div class="loader"></div> -->
+            </div>
+        </div>
+
+        <!-- Page content -->
+        <div class="imageSection" id="LandscapeandFlowers">
+            <h2>Landscape and Flowers</h2>
+            <div class="images">
+                <img onclick="showMore();chooseImages('ankang')"  img class="lazy" data-src= "images/oilpainting/《安康》《Felicity》50x40cm2019年王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('huakaifugui')"  img class="lazy" data-src = "images/oilpainting/《花开富贵》《Flowers in Full Bloom》王文华 40x30cm 布面油画2016年.png" alt="image">
+                <img onclick="showMore();chooseImages('jinpingyulu')"  img class="lazy" data-src = "images/oilpainting/《金瓶玉露》《Golden Vase and Jade Dew》50x40cm2019年王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('yifang')"  img class="lazy" data-src = "images/oilpainting/一方《One Square》50x50cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('shufangyizishang')"  img class="lazy" data-src = "images/oilpainting/书房椅子上花瓶自有诗情画意 The vase on the chair in the study has its own poetic splendor 60x60cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('shishiruyi')"  img class="lazy" data-src = "images/oilpainting/事事如意 Wishes Fulfilled 50x50cm2019年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('guose')"  img class="lazy" data-src = "images/oilpainting/国色 National Beauty 55x41cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('xiayong')"  img class="lazy" data-src = "images/oilpainting/夏涌 Summer Gush 55x41cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('xiayun')"  img class="lazy" data-src = "images/oilpainting/夏韵 Summer Tones 王文华 45x65cm 布面油画2015年.png" alt="image">
+                <img onclick="showMore();chooseImages('guomin')"  img class="lazy" data-src = "images/oilpainting/敦敏 Sincerity 50x50cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('nuanxin')"  img class="lazy" data-src = "images/oilpainting/暖心 Heartwarming 76x50cm 2019年王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('pingan')"  img class="lazy" data-src = "images/oilpainting/平安 70x40cm2019年王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('zhizihuakai')"  img class="lazy" data-src = "images/oilpainting/栀子花开 Gardenia in blossom 51x41cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('qihe')"  img class="lazy" data-src = "images/oilpainting/气和 Serenity 51x41cm 2019年王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('shengse')"  img class="lazy" data-src = "images/oilpainting/盛色. Flourishing Colors 50x50cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('qiuyun')"  img class="lazy" data-src = "images/oilpainting/秋韵 Autumn Tones 50x50cm  布面油画 2018年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('mijing')"  img class="lazy" data-src = "images/oilpainting/秘境 Enchanted Place 76x50cm 2019年 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('fensedaotian')"  img class="lazy" data-src = "images/oilpainting/粉色稻田2015年 45x65cm.png" alt="image">
+                <img onclick="showMore();chooseImages('honghonghuohuo')"  img class="lazy" data-src = "images/oilpainting/红红火火50x50cm2019年王文华.png" alt="image">
+            </div>
+        </div>
+
+        <div class="imageSection" id="Portraits">
+            <h2>Portraits</h2>
+            <div class="images">
+                <img onclick="showMore();chooseImages('anna')"  img class="lazy" data-src = "images/oilpainting/《安娜》王文华 布面油画  65x45cm.png" alt="image">
+                <img onclick="showMore();chooseImages('shuaigexiaoxiang')"  img class="lazy" data-src = "images/oilpainting/王文华 作品 肖像 65x45cm 布面油画 2017年.png" alt="image">
+                <img onclick="showMore();chooseImages('nanxiaoxiang')"  img class="lazy" data-src = "images/oilpainting/《男肖像》王文华 布面油画  65x45cm.png" alt="image">
+                <img onclick="showMore();chooseImages('hongsexiaoxiang')"  img class="lazy" data-src = "images/oilpainting/《红色肖像》王文华 布面油画  65x45cm.png" alt="image">
+                <img onclick="showMore();chooseImages('meinianda')"  img class="lazy" data-src = "images/oilpainting/《美年达》王文华 布面油画80x60cm.png" alt="image">
+                <img onclick="showMore();chooseImages('laozhe')"  img class="lazy" data-src = "images/oilpainting/《老者》王文华65x45cm2017年.png" alt="image">
+                <img onclick="showMore();chooseImages('xiaoxiang1')"  img class="lazy" data-src = "images/oilpainting/《肖像》王文华 布面油画  65x45cm.png" alt="image">
+                <img onclick="showMore();chooseImages('miaozulaozhexiaoxiang')"  img class="lazy" data-src = "images/oilpainting/《苗族老者肖像》王文华 布面油画  65x45cm.png" alt="image">
+                <img onclick="showMore();chooseImages('ruoyi')"  img class="lazy" data-src = "images/oilpainting/《若依》 王文华 80x60cm 布面油画 2015年.png" alt="image">
+                <img onclick="showMore();chooseImages('ruoqi')"  img class="lazy" data-src = "images/oilpainting/《若齐》 王文华 80x60cm 布面油画 2015年.png" alt="image">
+                <img onclick="showMore();chooseImages('landiao')"  img class="lazy" data-src = "images/oilpainting/《蓝调》王文华 布面油画 65x45cm 2017年.png" alt="image">
+                <img onclick="showMore();chooseImages('laidaoguangzhou')"  img class="lazy" data-src = "images/oilpainting/来到广州 王文华 60x50cm 布面油画 2013年.png" alt="image">
+                <img onclick="showMore();chooseImages('niu')"  img class="lazy" data-src = "images/oilpainting/王文华 作品 牛2014年  60x80cm.png" alt="image">
+                <img onclick="showMore();chooseImages('ma')"  img class="lazy" data-src = "images/oilpainting/王文华 作品 马 2014年  60x80cm.png" alt="image">
+                <img onclick="showMore();chooseImages('tingjiantingbujian')"  img class="lazy" data-src = "images/oilpainting/王文华_作品 听见 听不见2014年173x148cm.png" alt="image">
+                <img onclick="showMore();chooseImages('kanjiankanbujian')"  img class="lazy" data-src = "images/oilpainting/王文华_看见 看不见2014年173x148cm.png" alt="image">
+                <img onclick="showMore();chooseImages('jie')"  img class="lazy" data-src = "images/oilpainting/王文华油画 姐45·65cm.png" alt="image">
+                <img onclick="showMore();chooseImages('bailong')"  img class="lazy" data-src = "images/oilpainting/白龙  王文华 80x60cm.png" alt="image">
+            </div>
+        </div>
+
+        <div class="imageSection" id="Sketch">
+            <h2>Sketch</h2>
+            <div class="images">
+                <img onclick="showMore();chooseImages('nianhua')"  img class="lazy" data-src = "images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/《年华》  80x60cm 2020年纸本素描 王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('ziyinvlang')"  img class="lazy" data-src = "images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (9).png" alt="image">
+                <img onclick="showMore();chooseImages('zhongguojiayouweinijiayou')"  img class="lazy" data-src = "images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/《中国加油 为你加油》素描 王文华2020年102x78cm.png" alt="image">
+                <img onclick="showMore();chooseImages('guaibaobao')"  img class="lazy" data-src = "images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/Final 乖宝宝素描步骤图 (4).png" alt="image">
+                <img onclick="showMore();chooseImages('kaqiusha')"  img class="lazy" data-src = "images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png" alt="image">
+                <img onclick="showMore();chooseImages('dahuzi')"  img class="lazy" data-src = "images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤（4）.png" alt="image">
+                <img onclick="showMore();chooseImages('qinvzi')"  img class="lazy" data-src = "images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (8).png" alt="image">
+                <img onclick="showMore();chooseImages('xiaokeai')"  img class="lazy" data-src = "images/sketch/小可爱80x60cm2020年纸本素描王文华/11.png" alt="image">
+                <img onclick="showMore();chooseImages('shuainvhai')"  img class="lazy" data-src = "images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (5).png" alt="image">
+                <img onclick="showMore();chooseImages('daimaozidexiaohai')"  img class="lazy" data-src = "images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/Final 步骤三.png" alt="image">
+                <img onclick="showMore();chooseImages('wangzi')"  img class="lazy" data-src = "images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (4).png" alt="image">
+                <img onclick="showMore();chooseImages('shigaoxianghema')"  img class="lazy" data-src = "images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/石膏像荷马步骤图 (5).png" alt="image">
+                <img onclick="showMore();chooseImages('hongfanvhai')"  img class="lazy" data-src = "images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(5).png" alt="image">
+                <img onclick="showMore();chooseImages('hongfashuaige')"  img class="lazy" data-src = "images/sketch/红发帅哥60x45cm2019年纸本素描王文华/红发帅哥60x45cm2019年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('bangfadaidenvhai')"  img class="lazy" data-src = "images/sketch/绑发带的女孩80x60cm2019年纸本素描王文华/绑发带的小孩80x60cm2019年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('meilinvhai')"  img class="lazy" data-src = "images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/Final 美丽女孩素描步骤  (5).png" alt="image">
+                <img onclick="showMore();chooseImages('beitounan')"  img class="lazy" data-src = "images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (8).png" alt="image">
+                <img onclick="showMore();chooseImages('lanyanjingshuaige')"  img class="lazy" data-src = "images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (3).png" alt="image">
+                <img onclick="showMore();chooseImages('lanyinvhai')"  img class="lazy" data-src = "images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (3).png" alt="image">
+                <img onclick="showMore();chooseImages('hudiejienvhai')"  img class="lazy" data-src = "images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (4).png" alt="image">
+                <img onclick="showMore();chooseImages('jinsehuanian')"  img class="lazy" data-src = "images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/Final 锦瑟华年 步骤图 (8).png" alt="image">
+                <img onclick="showMore();chooseImages('heibeijingnanzi')"  img class="lazy" data-src = "images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (4).png" alt="image">
+                <img onclick="showMore();chooseImages('shoushangderen')"  img class="lazy" data-src = "images/sketch/受伤的人60x45cm 2019年纸本素描 王文华 .png" alt="image">
+                <img onclick="showMore();chooseImages('yangdage')"  img class="lazy" data-src = "images/sketch/杨大哥60x45cm2017年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('liuxuesheng')"  img class="lazy" data-src = "images/sketch/留学生60x45cm2017年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('liuxueshengfeiji')"  img class="lazy" data-src = "images/sketch/留学生非籍60x45cm2017年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('hongfaxiaonvhai')"  img class="lazy" data-src = "images/sketch/红发小女孩80x4560cm2019年纸本素描王文华.png" alt="image">
+                <img onclick="showMore();chooseImages('wudaonvhai')"  img class="lazy" data-src = "images/sketch/舞蹈女孩80x60cm 2020年 纸本素描王文华 .png" alt="image">
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footerPopUp">
+            <img id="wechatnewsletter" src="images/main/wechatnewsletter.png"> 
+            <img id="wechatcontact" src="images/main/wechatcontact.png"> 
+            <img id="toutiaoScan" src="images/main/toutiaoScan.png"> 
+        </div>
+        <footer>
+            <a href="#" title="Instagram"><img src="images/main/instaicon2.png" alt="instagram icon"></a>
+            <a href="mailto: 348923746@QQ.com" title="Email me at 348923746@QQ.com"><img src="images/main/emailicon2.png" alt="email icon"></a>
+            <a href="#" title="Patreon"><img src="images/main/linkicon2.png" alt="link icon"></a>
+            <a title="Toutiao" title="Toutiao" id="toutiaoicon"><img src="images/main/toutiaoicon2.png" alt="toutiao icon"></a>
+            <a title="Wechat Public Account (follow to see my works) / Wechat Private Account (direct message)" id="wechaticon"><img src="images/main/wechaticon2.png" alt="wechat icon"></a>
+            <p>© 2020 WANG WENHUA</p>
+        </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="gallery.js"></script>
+    <script src="jquery.zoom.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".sidenav a").on('click', function(event) {
+            if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                    window.location.hash = hash;
+            });
+            } 
+        });
+        });
+        </script>
+        <script src="yall.min.js"></script>
+        <script>
+          document.addEventListener("DOMContentLoaded", yall);
+        </script>
+</body>
+</html>
+    
