@@ -618,7 +618,7 @@ function chooseImages(paintingName){
                 appendDescription("《王子 Prince》sketch step 3");
                 appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (4).png");
                 appendDescription("《王子 Prince》sketch step 4");
-                appendVid("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/王子素描肖像步骤高清4K.mp4")
+                appendVid("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/王子素描肖像步骤1080p1.mp4")
                 appendDescription("《王子 Prince》sketch time-lapse");
             break;
 
