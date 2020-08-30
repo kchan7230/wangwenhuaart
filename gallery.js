@@ -1,6 +1,4 @@
-var zoomNum;            //incrementing number for different zoom class IDs
 var paintingName = "";
-
 
 function showMore(){
     document.getElementById("moreInfo").style.display= "block";
@@ -13,7 +11,6 @@ function closeMore(){
 }
 
 function chooseImages(paintingName){
-    zoomNum=0;
     switch (paintingName) {
         case 'ankang':
             appendTitle("安康 Felicity");
@@ -364,17 +361,17 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/《年华》  80x60cm 2020年纸本素描 王文华.png");
                 appendDescription("《年华》80x60cm 2020 sketch");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (1).png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (1).png");
                 appendDescription("《年华》sketch step 1");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (1.1).png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (1.1).png");
                 appendDescription("《年华》 sketch step 2");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (2).png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (2).png");
                 appendDescription("《年华》 sketch step 3");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (3).png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (3).png");
                 appendDescription("《年华》 sketch step 4");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (4).png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/步骤图 (4).png");
                 appendDescription("《年华》 sketch step 5");
-                appendImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/《年华》  80x60cm 2020年纸本素描 王文华.png");
+                appendNormalImg("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/《年华》  80x60cm 2020年纸本素描 王文华.png");
                 appendDescription("《年华》 sketch step 6");
                 appendVid("images/sketch/《年华》  80x60cm 2020年纸本素描 王文华/《年华》 5分钟 加音乐.mp4")
                 appendDescription("《年华》 time-lapse");
@@ -387,23 +384,23 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (9).png");
                 appendDescription("《紫衣女郎》60x45cm 2020 sketch");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (1).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (1).png");
                 appendDescription("《紫衣女郎》sketch step 1");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (2).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (2).png");
                 appendDescription("《紫衣女郎》sketch step 2");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (3).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (3).png");
                 appendDescription("《紫衣女郎》sketch step 3");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (4).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (4).png");
                 appendDescription("《紫衣女郎》sketch step 4");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (5).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (5).png");
                 appendDescription("《紫衣女郎》sketch step 5");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (6).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (6).png");
                 appendDescription("《紫衣女郎》sketch step 6");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (7).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (7).png");
                 appendDescription("《紫衣女郎》sketch step 7");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (8).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (8).png");
                 appendDescription("《紫衣女郎》sketch step 8");
-                appendImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (9).png");
+                appendNormalImg("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/步骤图  (9).png");
                 appendDescription("《紫衣女郎》sketch step 9");
                 appendVid("images/sketch/《紫衣女郎》60x45cm2020年纸本素描 王文华/《紫衣女郎》5分钟.mp4")
                 appendDescription("《紫衣女郎》sketch time-lapse");
@@ -416,9 +413,9 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/《中国加油 为你加油》素描 王文华2020年102x78cm.png");
                 appendDescription("《中国加油 为你加油》102x78cm 2020 sketch");
-                appendImg("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/IMG_20200206_173502.png");
+                appendNormalImg("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/IMG_20200206_173502.png");
                 appendDescription("《中国加油 为你加油》sketch step 1");
-                appendImg("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/《中国加油 为你加油》素描 王文华2020年102x78cm.png");
+                appendNormalImg("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/《中国加油 为你加油》素描 王文华2020年102x78cm.png");
                 appendDescription("《中国加油 为你加油》sketch step 2");
                 appendVid("images/sketch/中国加油 为你加油60X45cm2020年 纸本素描王文华/中国加油 为你加油 加音乐加字幕.mp4")
                 appendDescription("《中国加油 为你加油》sketch time-lapse");
@@ -431,15 +428,15 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/Final 乖宝宝素描步骤图 (4).png");
                 appendDescription("《乖宝宝》80x60cm 2019 sketch");
-                appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (1).png");
+                appendNormalImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (1).png");
                 appendDescription("《乖宝宝》sketch step 1");
-                appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (2).png");
+                appendNormalImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (2).png");
                 appendDescription("《乖宝宝》sketch step 2");
-                appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (3).png");
+                appendNormalImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (3).png");
                 appendDescription("《乖宝宝》sketch step 3");
-                appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/Final 乖宝宝素描步骤图 (4).png");
+                appendNormalImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/Final 乖宝宝素描步骤图 (4).png");
                 appendDescription("《乖宝宝》sketch step 4");
-                appendImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (5).png");
+                appendNormalImg("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝素描步骤图 (5).png");
                 appendDescription("《乖宝宝》sketch step 5");
                 appendVid("images/sketch/乖宝宝80x60cm 2019年纸本素描 王文华/乖宝宝 2K 加字幕.mp4")
                 appendDescription("《乖宝宝》sketch time-lapse");
@@ -452,27 +449,27 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png");
                 appendDescription("《喀秋莎》80x60cm 2020 sketch");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (1).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (1).png");
                 appendDescription("《喀秋莎》sketch step 1");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (2).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (2).png");
                 appendDescription("《喀秋莎》sketch step 2");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (3).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (3).png");
                 appendDescription("《喀秋莎》sketch step 3");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (4).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (4).png");
                 appendDescription("《喀秋莎》sketch step 4");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (5).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (5).png");
                 appendDescription("《喀秋莎》sketch step 5");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (6).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (6).png");
                 appendDescription("《喀秋莎》sketch step 6");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (7).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (7).png");
                 appendDescription("《喀秋莎》sketch step 7");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (8).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (8).png");
                 appendDescription("《喀秋莎》sketch step 8");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (9).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (9).png");
                 appendDescription("《喀秋莎》sketch step 9");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (10).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (10).png");
                 appendDescription("《喀秋莎》sketch step 10");
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png");
                 appendDescription("《喀秋莎》sketch step 11");
                 appendVid("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/喀秋莎 4分钟 加 音乐1.mp4")
                 appendDescription("《喀秋莎》sketch time-lapse");
@@ -485,13 +482,13 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤（4）.png");
                 appendDescription("《大胡子 Big Beard》60x45cm 2018 sketch");
-                appendImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (1).png");
+                appendNormalImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (1).png");
                 appendDescription("《大胡子 Big Beard》sketch step 1");
-                appendImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (2).png");
+                appendNormalImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (2).png");
                 appendDescription("《大胡子 Big Beard》sketch step 2");
-                appendImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (3).png");
+                appendNormalImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤 (3).png");
                 appendDescription("《大胡子 Big Beard》sketch step 3");
-                appendImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤（4）.png");
+                appendNormalImg("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子素描步骤（4）.png");
                 appendDescription("《大胡子 Big Beard》sketch step 4");
                 
                 appendVid("images/sketch/大胡子60x45cm 2018年 纸本素描王文华/大胡子男肖像素描步骤1080p.mp4")
@@ -505,19 +502,19 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (8).png");
                 appendDescription("《奇女子 Mysterious Girl》80x60cm 2020 sketch");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (1).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (1).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 1");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (2).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (2).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 2");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (3).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (3).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 3");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (4).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (4).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 4");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (5).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (5).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 5");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (7).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (7).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 6");
-                appendImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (8).png");
+                appendNormalImg("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子步骤  (8).png");
                 appendDescription("《奇女子 Mysterious Girl》sketch step 7");
                 appendVid("images/sketch/奇女子80x60cm2020年 纸本素描 王文华/奇女子 5分钟 加音乐.mp4")
                 appendDescription("《奇女子 Mysterious Girl》sketch time-lapse");
@@ -530,29 +527,28 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/11.png");
                 appendDescription("《小可爱》80x60cm 2020 sketch");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/1.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/1.png");
                 appendDescription("《小可爱》sketch step 1");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/2.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/2.png");
                 appendDescription("《小可爱》sketch step 2");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/3.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/3.png");
                 appendDescription("《小可爱》sketch step 3");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/4.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/4.png");
                 appendDescription("《小可爱》sketch step 4");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/5.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/5.png");
                 appendDescription("《小可爱》sketch step 5");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/6.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/6.png");
                 appendDescription("《小可爱》sketch step 6");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/7.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/7.png");
                 appendDescription("《小可爱》sketch step 7");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/8.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/8.png");
                 appendDescription("《小可爱》sketch step 8");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/9.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/9.png");
                 appendDescription("《小可爱》sketch step 9");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/10.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/10.png");
                 appendDescription("《小可爱》sketch step 10");
-                appendImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/11.png");
+                appendNormalImg("images/sketch/小可爱80x60cm2020年纸本素描王文华/11.png");
                 appendDescription("《小可爱》sketch step 11");
-
                 appendVid("images/sketch/小可爱80x60cm2020年纸本素描王文华/小可爱 4分钟 加 音乐.mp4")
                 appendDescription("《小可爱》sketch time-lapse");
             break;
@@ -564,17 +560,16 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (5).png");
                 appendDescription("《帅女孩》60x45cm 2019 sketch");
-                appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (1).png");
+                appendNormalImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (1).png");
                 appendDescription("《帅女孩》sketch step 1");
-                appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (2).png");
+                appendNormalImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (2).png");
                 appendDescription("《帅女孩》sketch step 2");
-                appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (3).png");
+                appendNormalImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (3).png");
                 appendDescription("《帅女孩》sketch step 3");
-                appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (4).png");
+                appendNormalImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (4).png");
                 appendDescription("《帅女孩》sketch step 4");
-                appendImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (5).png");
+                appendNormalImg("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/19年帅哥女素描肖像步骤 (5).png");
                 appendDescription("《帅女孩》sketch step 5");
-
                 appendVid("images/sketch/帅女孩 60x45cm 2019年纸本素描 王文华/帅女孩  2k.mp4")
                 appendDescription("《帅女孩》sketch time-lapse");
             break;
@@ -586,19 +581,18 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/Final 步骤三.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》80x60cm 2019 sketch");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤一.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤一.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 1");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤一 局部.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤一 局部.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 1 detailed view");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤二.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤二.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 2");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤二 局部.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤二 局部.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 2 detailed view");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/Final 步骤三.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/Final 步骤三.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 3");
-                appendImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤三 局部.png");
+                appendNormalImg("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/步骤三 局部.png");
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch step 3 detailed view");
-
                 appendVid("images/sketch/戴帽子的小孩80x60cm2019年纸本素描王文华/19年 素描 戴帽子的女孩全5分加音乐.mp4")
                 appendDescription("《戴帽子的小孩 Child Who Wears a Hat》sketch time-lapse");
             break;
@@ -610,15 +604,15 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (4).png");
                 appendDescription("《王子 Prince》60x45cm 2019 sketch");
-                appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (1).png");
+                appendNormalImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (1).png");
                 appendDescription("《王子 Prince》sketch step 1");
-                appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (2).png");
+                appendNormalImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (2).png");
                 appendDescription("《王子 Prince》sketch step 2");
-                appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (3).png");
+                appendNormalImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (3).png");
                 appendDescription("《王子 Prince》sketch step 3");
-                appendImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (4).png");
+                appendNormalImg("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/公子素描肖像步骤 (4).png");
                 appendDescription("《王子 Prince》sketch step 4");
-                appendVid("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/王子素描肖像步骤1080p1.mp4")
+                appendVid("images/sketch/王子 60x45cm 2019年 纸本素描 王文华/王子素描肖像步骤高清4K.mp4")
                 appendDescription("《王子 Prince》sketch time-lapse");
             break;
 
@@ -629,15 +623,15 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/石膏像荷马步骤图 (5).png");
                 appendDescription("《石膏像荷马》80x60cm 2019 sketch");
-                appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step1.png");
+                appendNormalImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step1.png");
                 appendDescription("《石膏像荷马》sketch step 1");
-                appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step2.png");
+                appendNormalImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step2.png");
                 appendDescription("《石膏像荷马》sketch step 2");
-                appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step3.png");
+                appendNormalImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step3.png");
                 appendDescription("《石膏像荷马》sketch step 3");
-                appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step4.png");
+                appendNormalImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/step4.png");
                 appendDescription("《石膏像荷马》sketch step 4");
-                appendImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/石膏像荷马步骤图 (5).png");
+                appendNormalImg("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/石膏像荷马步骤图 (5).png");
                 appendDescription("《石膏像荷马》sketch step 5");
                 appendVid("images/sketch/石膏像荷马80x60cm2019年纸本素描王文华/荷马3分加音乐.mp4")
                 appendDescription("《石膏像荷马》sketch time-lapse");
@@ -650,15 +644,15 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(5).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》60x45cm 2019 sketch");
-                appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(1).png");
+                appendNormalImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(1).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch step 1");
-                appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(2).png");
+                appendNormalImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(2).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch step 2");
-                appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(3).png");
+                appendNormalImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(3).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch step 3");
-                appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(4).png");
+                appendNormalImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(4).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch step 4");
-                appendImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(5).png");
+                appendNormalImg("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/(5).png");
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch step 5");
                 appendVid("images/sketch/红发女孩 60x45cm  纸本素描2019年 王文华/单眼皮女孩 2k.mp4")
                 appendDescription("《红发女孩 Ginger-haired Girl》sketch time-lapse");
@@ -671,7 +665,6 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/红发帅哥60x45cm2019年纸本素描王文华/红发帅哥60x45cm2019年纸本素描王文华.png");
                 appendDescription("《红发帅哥 Auburn-haired Handsome Boy》60x45cm 2019 sketch");
-
                 appendVid("images/sketch/红发帅哥60x45cm2019年纸本素描王文华/红发帅哥素描步骤视频.mp4")
                 appendDescription("《红发帅哥 Auburn-haired Handsome Boy》sketch time-lapse");
             break;
@@ -694,17 +687,17 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/Final 美丽女孩素描步骤  (5).png");
                 appendDescription("《美丽女孩》60x45cm 2019 sketch");
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (1).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (1).png");
                 appendDescription("《美丽女孩》sketch step 1");
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (2).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (2).png");
                 appendDescription("《美丽女孩》sketch step 2")
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (3).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (3).png");
                 appendDescription("《美丽女孩》sketch step 3");
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (4).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (4).png");
                 appendDescription("《美丽女孩》sketch step 4");
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/Final 美丽女孩素描步骤  (5).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/Final 美丽女孩素描步骤  (5).png");
                 appendDescription("《美丽女孩》sketch step 5");
-                appendImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (6).png");
+                appendNormalImg("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩素描步骤  (6).png");
                 appendDescription("《美丽女孩》sketch step 6");
                 appendVid("images/sketch/美丽女孩60x45cm 2019年 纸本素描王文华/美丽女孩加片头 2K.mp4")
                 appendDescription("《美丽女孩》sketch time-lapse");
@@ -717,17 +710,17 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (8).png");
                 appendDescription("《背头男》60x45cm 2018 sketch");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (1).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (1).png");
                 appendDescription("《背头男》sketch step 1");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (2).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (2).png");
                 appendDescription("《背头男》sketch step 2");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (3).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (3).png");
                 appendDescription("《背头男》sketch step 3");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (6).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (6).png");
                 appendDescription("《背头男》sketch step 4");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (7).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (7).png");
                 appendDescription("《背头男》sketch step 5");
-                appendImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (8).png");
+                appendNormalImg("images/sketch/背头男60x45cm 2018年 纸本素描王文华/背头男素描步骤 (8).png");
                 appendDescription("《背头男》sketch step 6");
                 appendVid("images/sketch/背头男60x45cm 2018年 纸本素描王文华/男肖像步骤录像.mp4")
                 appendDescription("《背头男》sketch time-lapse");
@@ -740,11 +733,11 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (3).png");
                 appendDescription("《蓝眼睛帅哥》60x45cm 2020 sketch");
-                appendImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (1).png");
+                appendNormalImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (1).png");
                 appendDescription("《蓝眼睛帅哥》sketch step 1");
-                appendImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (2).png");
+                appendNormalImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (2).png");
                 appendDescription("《蓝眼睛帅哥》sketch step 2");
-                appendImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (3).png");
+                appendNormalImg("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 素描 步骤图 (3).png");
                 appendDescription("《蓝眼睛帅哥》sketch step 3");
                 appendVid("images/sketch/蓝眼睛帅哥 60x45cm2020年纸本素描王文华)/蓝眼睛帅哥 5分钟加音乐.mp4")
                 appendDescription("《蓝眼睛帅哥》sketch time-lapse");
@@ -757,11 +750,11 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (3).png");
                 appendDescription("《蓝衣女孩》60x45cm 2019 sketch");
-                appendImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (1).png");
+                appendNormalImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (1).png");
                 appendDescription("《蓝衣女孩》sketch step 1");
-                appendImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (2).png");
+                appendNormalImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (2).png");
                 appendDescription("《蓝衣女孩》sketch step 2");
-                appendImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (3).png");
+                appendNormalImg("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩 (3).png");
                 appendDescription("《蓝衣女孩》sketch step 3");
                 appendVid("images/sketch/蓝衣女孩60x45cm 2019年 纸本素描王文华/19年 素描 蓝衣女孩5分钟加音乐.mp4")
                 appendDescription("《蓝衣女孩》sketch time-lapse");
@@ -774,13 +767,13 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (4).png");
                 appendDescription("《蝴蝶结女孩》60x45cm 2020 sketch");
-                appendImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (1).png");
+                appendNormalImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (1).png");
                 appendDescription("《蝴蝶结女孩》sketch step 1");
-                appendImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (2).png");
+                appendNormalImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (2).png");
                 appendDescription("《蝴蝶结女孩》sketch step 2");
-                appendImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (3).png");
+                appendNormalImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (3).png");
                 appendDescription("《蝴蝶结女孩》sketch step 3");
-                appendImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (4).png");
+                appendNormalImg("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩步骤图 (4).png");
                 appendDescription("《蝴蝶结女孩》sketch step 4");
                 appendVid("images/sketch/蝴蝶结女孩60x45cm2020年纸本素描王文华/蝴蝶结女孩 5分钟 加音乐.mp4")
                 appendDescription("《蝴蝶结女孩》sketch time-lapse");
@@ -793,21 +786,21 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/Final 锦瑟华年 步骤图 (8).png");
                 appendDescription("《锦瑟华年》80x60cm 2020 sketch");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (1).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (1).png");
                 appendDescription("《锦瑟华年》sketch step 1");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (2).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (2).png");
                 appendDescription("《锦瑟华年》sketch step 2");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (3).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (3).png");
                 appendDescription("《锦瑟华年》sketch step 3");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (4).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (4).png");
                 appendDescription("《锦瑟华年》sketch step 4");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (5).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (5).png");
                 appendDescription("《锦瑟华年》sketch step 5");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (6).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (6).png");
                 appendDescription("《锦瑟华年》sketch step 6");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (7).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 步骤图 (7).png");
                 appendDescription("《锦瑟华年》sketch step 7");
-                appendImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/Final 锦瑟华年 步骤图 (8).png");
+                appendNormalImg("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/Final 锦瑟华年 步骤图 (8).png");
                 appendDescription("《锦瑟华年》sketch step 8");
                 appendVid("images/sketch/锦瑟华年80x60cm2020年纸本素描王文华/锦瑟华年 6分钟.mp4")
                 appendDescription("《锦瑟华年》sketch time-lapse");
@@ -820,13 +813,13 @@ function chooseImages(paintingName){
                 showLoading();
                 appendImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (4).png");
                 appendDescription("《黑背景男子》60x45cm 2019 sketch");
-                appendImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子(1).png");
+                appendNormalImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子(1).png");
                 appendDescription("《黑背景男子》sketch step 1");
-                appendImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (2).png");
+                appendNormalImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (2).png");
                 appendDescription("《黑背景男子》sketch step 2");
-                appendImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (3).png");
+                appendNormalImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (3).png");
                 appendDescription("《黑背景男子》sketch step 3");
-                appendImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (4).png");
+                appendNormalImg("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/19年黑背景男子 (4).png");
                 appendDescription("《黑背景男子》sketch step 4");
                 appendVid("images/sketch/黑背景男子60x45cm 2019年纸本素描 王文华/黑背景男肖像素描步骤1080p加音乐.mp4")
                 appendDescription("《黑背景男子》sketch time-lapse");
@@ -911,58 +904,50 @@ function appendNormalImg(imgName){
     var image = document.createElement("img");                  //create img element
     image.src = imgName;
     image.alt = "image";
-    image.setAttribute("class", "normalImage");            //new ID for image to get width below
+    image.setAttribute("class", "normalImage");            
 
-    $(".infoContent").append(image);                   //appendchild to specific zoom ID
+    $(".infoContent").append(image);                 
 }
 
 function appendImg(imgName){
-    zoomNum+=1;
-    var zoomNumString = zoomNum.toString();          //create id name for new zoom class
-    var zoomID = "zoomId" + zoomNumString;
-
-    var newZoomClass = document.createElement("div");         //create new zoom class for each image
-    newZoomClass.setAttribute("id", zoomID);            //new ID for zoom container (since I may use this function multiple times to add multiple images)
+    var newZoomClass = document.createElement("div");        
+    newZoomClass.setAttribute("id", "zoomID");           
 
     $(".infoContent").append(newZoomClass);
 
-    var image = document.createElement("img");                  //create img element
+    var image = document.createElement("img");                 
     image.src = imgName;
     image.alt = "image";
-    var imgID = "imgID" + zoomNumString;
-    image.setAttribute("id", imgID);            //new ID for image to get width below (again, because I want multiple images)
+    image.setAttribute("id", "imgID");            
 
-    zoomID = "#"+zoomID;
-    imgID = "#"+imgID;
+    $("#zoomID").append(image);                   //appendchild image to specific zoom ID
 
-    $(zoomID).append(image);                   //appendchild image to specific zoom ID
+    $("#imgID").css('height',"65vh");
+    $("#imgID").css('object-fit',"contain");
+    $("#imgID").css('display',"block");
+    $("#imgID").css('width',"auto");
+    $("#imgID").css('margin-left',"auto");
+    $("#imgID").css('margin-right',"auto");
+    $("#zoomID").css('height',"65vh");
+    var imgWidth = $("#imgID").css('width');
+    $("#zoomID").css('width',imgWidth);
 
-    $(imgID).css('height',"65vh");
-    $(imgID).css('object-fit',"contain");
-    $(imgID).css('display',"block");
-    $(imgID).css('width',"auto");
-    $(imgID).css('margin-left',"auto");
-    $(imgID).css('margin-right',"auto");
-    $(zoomID).css('height',"65vh");
-    var imgWidth = $(imgID).css('width');
-    $(zoomID).css('width',imgWidth);
-
-    $(zoomID).css('position',"relative");
-    $(zoomID).css('overflow',"hidden");
-    $(zoomID).css('display',"block");
-    $(zoomID).css('margin-left',"auto");
-    $(zoomID).css('margin-right',"auto");
+    $("#zoomID").css('position',"relative");
+    $("#zoomID").css('overflow',"hidden");
+    $("#zoomID").css('display',"block");
+    $("#zoomID").css('margin-left',"auto");
+    $("#zoomID").css('margin-right',"auto");
 
     $(document).ready(function(){                                //jquery plugin zoom function for zooming in on picture
-        $(zoomID).zoom({on:'click', magnify:1,url:false, touch:true});
+        $("#zoomID").zoom({on:'click', magnify:1,url:false, touch:true});
     });
 
-    $(imgID).ready(function(){                                    
+    $("#imgID").ready(function(){                                    
         $("#loader").remove();
     });
 
-    $(zoomID).hover(function(){   
-        $(zoomID).css('cursor',"zoom-in");                             
+    $("#zoomID").hover(function(){   
+        $("#zoomID").css('cursor',"zoom-in");                             
 });
 }
 

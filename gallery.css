@@ -199,8 +199,6 @@ font-size: 15px;
   padding-bottom: 0.5em !important;
 }
 
-.zoom img::selection{background-color:transparent;}
-
 .infoContent .normalImage{
   height: 65vh;
   object-fit: contain;
