@@ -63,7 +63,7 @@ a{
 
 /* The navigation menu links */
 .sidenav .sidenavHeadings {
-  padding: 1.5em 8px 1em 25px;
+  padding: 1.5em 0 1em 25px;
   text-decoration: none;
   font-size: 15px;
   color:#fff;
@@ -76,7 +76,7 @@ a{
 }
 
 .sidenav .sidenavSubheadings {
-padding: 6px 8px 0.5em 35px;
+padding: 6px 0 0.5em 35px;
 text-decoration: none;
 font-size: 13px;
 color: #fff;
@@ -577,7 +577,7 @@ footer img:hover{
   }
 
   .imageSection{
-    margin-left:170px;
+    margin-left:160px;
   }
 }
 
@@ -606,6 +606,10 @@ footer img:hover{
   #moreInfo .headingContainer{
     left: 10px;
     right: 10px;
+  }
+
+  .sidenav {
+    width: 130px;
   }
 
   #paintingVid{
@@ -681,7 +685,7 @@ footer img:hover{
   .imageSection{
     text-align: left;
     margin-top: 0;
-    margin-left:170px;
+    margin-left:130px;
     margin-right: 0;
     margin-bottom: 1em;
   }
