@@ -944,7 +944,7 @@ function appendHeading(headingText){
 
 function appendZoom(){
     var zoomInstruct = document.createElement("p");
-    var descriptionTextNode = document.createTextNode("Click painting to zoom in");
+    var descriptionTextNode = document.createTextNode("点击画面可放大");
     zoomInstruct.appendChild(descriptionTextNode);
     zoomInstruct.setAttribute("id", "zoomInstruct");
     $(".infoContent").append(zoomInstruct);

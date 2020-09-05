@@ -200,7 +200,7 @@ nav{
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 1px;
   background: #000;
   transition: all 0.6s;
 }
@@ -213,7 +213,7 @@ nav{
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 1px;
   background: #000;
   transition: all 0.6s;
 }
@@ -226,7 +226,7 @@ nav{
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 1px;
   background: #000;
   transition: all 0.6s;
 }
@@ -239,7 +239,7 @@ nav{
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 1px;
   background: #000;
   transition: all 0.6s;
 }
@@ -435,6 +435,11 @@ footer img{
   padding: 10px;
   vertical-align: middle;
   height: 24px;
+  opacity: 0.8;
+}
+
+footer img:hover{
+  opacity: 1;
 }
 
 footer p{

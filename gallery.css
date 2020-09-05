@@ -162,14 +162,14 @@ opacity: 0.5;
   overflow: hidden; 
   display: block;
   width: 50vh;
-  height: 65vh;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 #imgID{
   width: 50vh;
-  height: 65vh;
+  height: auto;
   object-fit: contain;
   display: block;
   margin-left: auto;
@@ -228,7 +228,7 @@ font-size: 15px;
 
 .infoContent .normalImage{
   width: 50vh;
-  height: 65vh;
+  height: auto;
   object-fit: contain;
   display: block;
   margin-left: auto;
@@ -371,7 +371,7 @@ position: relative;
 bottom: 0;
 left: 0;
 width: 0%;
-height: 2px;
+height: 1px;
 background: white;
 transition: all 0.6s;
 }
@@ -384,7 +384,7 @@ position: relative;
 bottom: 0;
 left: 0;
 width: 0%;
-height: 2px;
+height: 1px;
 background: white;
 transition: all 0.6s;
 }
@@ -397,7 +397,7 @@ position: relative;
 bottom: 0;
 left: 0;
 width: 0%;
-height: 2px;
+height: 1px;
 background: white;
 transition: all 0.6s;
 }
@@ -410,7 +410,7 @@ position: relative;
 bottom: 0;
 left: 0;
 width: 0%;
-height: 2px;
+height: 1px;
 background: white;
 transition: all 0.6s;
 }
@@ -464,7 +464,7 @@ width: 100%;
 
 .imageSection{
   text-align: left;
-  margin: 3em 0 8em 160px;
+  margin: 2em 0 8em 160px;
   padding-bottom: 1em;
   background-color: black;
 }
@@ -593,21 +593,40 @@ footer img:hover{
 
 @media screen and (max-width: 768px){
   #moreInfo{
-    left: 10vh;
-    right: 10vh;
-    margin-top: 15vh;
+    left: 10px;
+    right: 10px;
+    margin-top: 80px;
   }
 
   #moreInfo .iconContainer{
-    left: 10vh;
-    right: 10vh;
+    left: 10px;
+    right: 10px;
   }
 
   #moreInfo .headingContainer{
-    left: 10vh;
-    right: 10vh;
+    left: 10px;
+    right: 10px;
+  }
+
+  #paintingVid{
+    width: 200px;
+    height: auto;
+  }
+
+  #zoomID{
+    width: 200px;
+    height: auto;
+  }
+
+  .normalImage{
+    width: 200px;
+    height: auto;
   }
   
+  #imgID{
+    width: 200px;
+    height: auto;
+  }
   .flex-2{
     width: 100%;
   }
@@ -621,7 +640,7 @@ footer img:hover{
   }
 
   .flex-2 ul li{
-    margin: 1.5 em 0;
+    margin: 1.5em 0;
     font-size: 16px;
   }
 
@@ -661,7 +680,7 @@ footer img:hover{
 
   .imageSection{
     text-align: left;
-    margin-top: 7em;
+    margin-top: 0;
     margin-left:170px;
     margin-right: 0;
     margin-bottom: 1em;
@@ -682,10 +701,6 @@ footer img:hover{
 
   #logoimage{
     margin-left: 20px;
-  }  
-
-  .imageSection{
-    margin-top:0;
   }  
 
   .imageSection h2{
