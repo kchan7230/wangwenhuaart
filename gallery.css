@@ -226,7 +226,7 @@ font-size: 15px;
   padding-bottom: 0.5em !important;
 }
 
-.infoContent .normalImage{
+.normalImage{
   width: 50vh;
   height: auto;
   object-fit: contain;
