@@ -12,6 +12,21 @@ function closeMore(){
 
 function chooseImages(paintingName){
     switch (paintingName) {
+        case 'lanlianhua':
+            appendTitle("蓝莲花 Blue Lotus");
+            setInfocontentMargin();
+            appendZoom();
+            showLoading();
+            appendImg("images/oilpainting/蓝莲花.png");
+            appendDescription("《蓝莲花 Blue Lotus》60x80cm 2020 oil on canvas");
+            appendNormalImg("images/oilpainting/蓝莲花1.png");
+            appendDescription("《蓝莲花 Blue Lotus》detailed view 1");
+            appendNormalImg("images/oilpainting/蓝莲花2.png");
+            appendDescription("《蓝莲花 Blue Lotus》detailed view 2")
+            appendNormalImg("images/oilpainting/蓝莲花3.png");
+            appendDescription("《蓝莲花 Blue Lotus》detailed view 3");
+        break;
+        
         case 'ankang':
             appendTitle("安康 Felicity");
             setInfocontentMargin();
@@ -447,31 +462,31 @@ function chooseImages(paintingName){
                 setInfocontentMargin();
                 appendZoom();
                 showLoading();
-                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png");
+                appendImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/11.png");
                 appendDescription("《喀秋莎》80x60cm 2020 sketch");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (1).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/1.png");
                 appendDescription("《喀秋莎》sketch step 1");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (2).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/2.png");
                 appendDescription("《喀秋莎》sketch step 2");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (3).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/3.png");
                 appendDescription("《喀秋莎》sketch step 3");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (4).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/4.png");
                 appendDescription("《喀秋莎》sketch step 4");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (5).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/5.png");
                 appendDescription("《喀秋莎》sketch step 5");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (6).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/6.png");
                 appendDescription("《喀秋莎》sketch step 6");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (7).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/7.png");
                 appendDescription("《喀秋莎》sketch step 7");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (8).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/8.png");
                 appendDescription("《喀秋莎》sketch step 8");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (9).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/9.png");
                 appendDescription("《喀秋莎》sketch step 9");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (10).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/10.png");
                 appendDescription("《喀秋莎》sketch step 10");
-                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/  (11).png");
+                appendNormalImg("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/11.png");
                 appendDescription("《喀秋莎》sketch step 11");
-                appendVid("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/喀秋莎 4分钟 加 音乐1.mp4")
+                appendVid("images/sketch/喀秋莎80x60cm2020年纸本素描王文华/喀秋莎4分钟加音乐1.mp4")
                 appendDescription("《喀秋莎》sketch time-lapse");
             break;
 

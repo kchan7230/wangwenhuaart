@@ -464,7 +464,7 @@ width: 100%;
 
 .imageSection{
   text-align: left;
-  margin: 2em 0 8em 160px;
+  margin: 3em 0 8em 160px;
   padding-bottom: 1em;
   background-color: black;
 }
@@ -685,7 +685,7 @@ footer img:hover{
   .imageSection{
     text-align: left;
     margin-top: 0;
-    margin-left:130px;
+    margin-left:160px;
     margin-right: 0;
     margin-bottom: 1em;
   }
